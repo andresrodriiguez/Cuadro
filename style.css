@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&display=swap');
+body {
+    font-family: "IM Fell French Canon SC", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #6b6b6b; /* Fondo normal */
+}
+
+.container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-bottom: 60px;
+}
+
+.artwork {
+    background-color: #fff;
+    border-radius: 30px solid #000;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+.artwork img {
+    max-width: 100%;
+    height: auto;
+}
+
+.artist-info {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.artist-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.artist-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.artist-info p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        margin-top: 10px; 
+    }
+    .artwork {
+        border-radius: 15px;
+    }
+}
